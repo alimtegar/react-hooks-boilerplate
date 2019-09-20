@@ -13,11 +13,11 @@ const Todos = () => {
   }, [todoContext]);
 
   return (
-    <div id="todo-list">
+    <div id="todos">
       {todoContext.todos
         ? todoContext.todos.map(todo => (
             <div
-              className={`todo-item ${todo.completed ? "striked" : null}`}
+              className={`todo ${todo.completed ? "striked" : null}`}
               key={todo.title}
             >
               <h6>{todo.title}</h6>

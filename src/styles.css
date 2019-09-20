@@ -24,13 +24,13 @@ h6 {
   font-weight: bold;
 }
 
-/* Todo */
-#todo-list {
+/* Todos */
+#todos {
   margin: -0.25rem 0;
   padding: 0 0.5rem;
 }
 
-#todo-list .todo-item {
+#todos .todo {
   text-transform: capitalize;
   margin: 0.25rem 0;
   padding: 0.5rem;
@@ -38,6 +38,6 @@ h6 {
   border-radius: 0.25rem;
 }
 
-#todo-list .todo-item.striked {
+#todos .todo.striked {
   color: #999999;
 }

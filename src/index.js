@@ -7,13 +7,13 @@ import "./styles.css";
 // Components
 import TodoContextProvider from "./components/TodoContextProvider";
 import Navbar from "./components/Navbar";
-import TodoList from "./components/TodoList";
+import Todos from "./components/Todos";
 
 const App = () => {
   return (
     <TodoContextProvider>
       <Navbar />
-      <TodoList />
+      <Todos />
     </TodoContextProvider>
   );
 };
