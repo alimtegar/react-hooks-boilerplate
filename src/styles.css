@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.striked {
+  text-decoration: line-through;
+}
+
+/* Navbar */
+#navbar {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+#navbar .navbar-title {
+  font-weight: bold;
+}
+
+/* Todo */
+#todo-list {
+  margin: -0.25rem 0;
+  padding: 0 0.5rem;
+}
+
+#todo-list .todo-item {
+  text-transform: capitalize;
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+#todo-list .todo-item.striked {
+  color: #999999;
+}
